@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+
+}
+
+img {
+    transition: transform .5s;
+    width: 500px;
+    height: 500px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#Mycarousel {
+    background-color: lightcoral;
+}
+
+#Mycarousel img {
+    
+    
+    margin-top: 35px;
+}
+
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+}
